@@ -1,14 +1,14 @@
 {
     "name": "DoluramFilesBot",
-    "description": "A Telegram Files Store Bot in Pyrogram by @RoyalKrrishna",
+    "description": "A Telegram Files Store Bot in Pyrogram by @Himanshu_Rathorr",
     "keywords": [
         "telegram",
         "files",
         "store",
         "bot"
     ],
-    "repository": "https://github.com/RoyalKrrishna/DoluramFilesBot",
-    "success_url": "https://t.me/TechnoKrrish",
+    "repository": "https://github.com/himanshu8004/DoluramFilesBot",
+    "success_url": "https://t.me/@Himanshu_Rathorr",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
