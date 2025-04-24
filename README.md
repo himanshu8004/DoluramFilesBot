@@ -1,6 +1,6 @@
 # DoluramFilesBot
 
-This is Telegram Parmanent Files Store Bot by [RoyalKrrishna](https://t.me/RoyalKrrishna).
+This is Telegram Parmanent Files Store Bot by [RoyalKrrishna](https://t.me/Himanshu_Rathorr).
 
 * **Language:** [Python3](https://www.python.org)
 * **Library:** [Pyrogram](https://docs.pyrogram.org)
