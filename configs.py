@@ -23,16 +23,16 @@ Send me any file and I will save it in my Database.\n\nI'm Also works for channe
 
 🤖 **My Name: [Doluram](https://t.me/{BOT_USERNAME})**
 
-🧑‍🍼 **My Father: @RoyalKrrishna**
+🧑‍🍼 **My Father: @Himanshu_Rathorr**
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer: @RoyalKrrishna**
+🧑🏻‍💻 **Developer: @Himanshu_Rathorr**
 
 Developer is Super Noob 😒. He's Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive 🤪.
 
 Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 
-💰 **Donate Now** - krrishnabaaghi@paytm (UPI)
+💰 **Donate Now** - 8690036606-2@axl (UPI)
 """
 	HOME_TEXT = """
 **Hey, [{}](tg://user?id={}) 😀\n\nThis is Doluram The Permanent File Store Bot.🤖
