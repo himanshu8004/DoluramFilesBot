@@ -50,15 +50,15 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
                 InlineKeyboardButton("Delete Batch", callback_data="closeMessage")
             ]])
         )
-        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=RoyalKrrishna_{str_to_b64(str(SaveMessage.message_id))}"
+        share_link = f"https://telegram.me/{Config.BOT_USERNAME}?start=Himanshu_Rathorr_{str_to_b64(str(SaveMessage.message_id))}"
         await editable.edit(
             f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
             f"Just Click the link to get your files!",
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/RoyalKrrishna"),
-                  InlineKeyboardButton("Support Group", url="https://t.me/RoyalKrrishna")]]
+                 [InlineKeyboardButton("Bots Channel", url="https://t.me/Himanshu_Rathorr"),
+                  InlineKeyboardButton("Support Group", url="https://t.me/Himanshu_Rathorr")]]
             ),
             disable_web_page_preview=True
         )
@@ -98,8 +98,8 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bot Dev", url="https://t.me/RoyalKrrishna"),
-                  InlineKeyboardButton("Update Channel", url="https://t.me/TechnoKrrish")]]
+                 [InlineKeyboardButton("Bot Dev", url="https://t.me/Himanshu_Rathorr"),
+                  InlineKeyboardButton("Update Channel", url="https://t.me/Himanshu_Rathorr")]]
             ),
             disable_web_page_preview=True
         )
