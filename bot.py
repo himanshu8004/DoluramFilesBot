@@ -1,4 +1,4 @@
-# (c) @RoyalKrrishna
+
 
 import os
 import asyncio
@@ -116,7 +116,7 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/RoyalKrrishna)",
+            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/@Himanshu_Rathorr)",
                                      disable_web_page_preview=True)
             return
 
@@ -315,7 +315,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("My Father",
-                                             url="https://t.me/RoyalKrrishna")
+                                             url="https://t.me/Himanshu_Rathorr")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -334,7 +334,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Bot Developer",
-                                             url="https://t.me/RoyalKrrishna")
+                                             url="https://t.me/Himanshu_Rathorr")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -369,7 +369,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(channel_chat_id, cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Father](https://t.me/RoyalKrrishna).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Father](https://t.me/Himanshu_Rathorr).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -394,7 +394,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Father](https://t.me/RoyalKrrishna).",
+                    text="Something went Wrong. Contact my [Father](https://t.me/Himanshu_Rathorr).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
